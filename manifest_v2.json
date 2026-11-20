@@ -1,0 +1,47 @@
+{
+  "item": {
+    "id": "979837545041",
+    "restype": "watchface",
+    "name": "DOOM LAUNCHER",
+    "description": "介绍：在手环上运行经典游戏《Doom》\n\n使用教程：\n1. 下载捆绑插件与快应用\n2. 导入 WAD 文件（文件需自行准备，请使用官方 WAD 文件，因使用错误文件导致的问题后果自负）\n3. 安装表盘\n4. 点击注册按钮，注册完成后软件图标会出现在应用列表\n5. 点击图标进入，选择游戏文件即可游玩\n\n说明：\n· 不同游戏文件存档互通，游玩时请加载正确的存档。\n· 本应用为付费应用，购买前请确认手环型号为小米手环 10 Pro，且固件版本为 3.101.043。\n· 进入游戏后，请等待主菜单背景变为游戏展示界面后再开始游戏。\n· 游玩过程中如需切换游戏文件，请重启设备后再切换。\n· 本应用为原生应用，注册后重启设备需重新注册。\n· 应用预览及截图仅用于功能展示，本应用不内置任何游戏素材，相关版权归原权利方所有。\n· 如遇问题请在评论区留言，请保持友善交流。\n· 虚拟物品一经售出，不退不换。",
+    "preview": [
+      "media/device-1795176079922.png",
+      "media/device-1795150789326.png",
+      "media/device-1795150798430.png",
+      "media/device-1795150813208.png",
+      "media/device-1795150833933.png",
+      "media/device-1795150866692.png"
+    ],
+    "icon": "media/icon.png",
+    "cover": "media/IMG_20261120_190504.png",
+    "author": [
+      {
+        "name": "IRKBI",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "0.0.0",
+      "file_name": "downloads/doom.face",
+      "versionCode": 0
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "required": [
+        {
+          "type": "resource",
+          "id": "com.doom.wadloader"
+        },
+        {
+          "type": "plugin",
+          "id": "Doom WAD Sender"
+        }
+      ]
+    }
+  }
+}
